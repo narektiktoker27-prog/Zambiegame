@@ -1,0 +1,18 @@
+import os
+
+BOT_TOKEN = os.getenv("BOT_TOKEN", "")
+
+MIN_PLAYERS = 2
+MAX_PLAYERS = 100
+
+WORLD_TICK_SECONDS = 12
+MIN_GAME_MINUTES = 20
+TARGET_GAME_MINUTES = 28
+MAX_GAME_MINUTES = 55
+
+MAX_INVENTORY = 7
+BASE_ZOMBIES = 4
+
+# Small-game tuning: enough pressure without making a 2-player game impossible.
+TWO_PLAYER_START_BULLETS = 5
+NORMAL_START_BULLETS = 2
